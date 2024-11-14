@@ -87,7 +87,7 @@ function draw() {
   background(255, 255, 255);
   
   //Display the webcam video
-    
+    console.log("display video");
   image(video, 0, 0, vwidth, vheight);
 
   // Draw the bodyPose keypoints
