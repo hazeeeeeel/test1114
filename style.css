@@ -1,0 +1,94 @@
+@font-face {
+    font-family: politip;
+    src: url(assets/fonts/bb_bureau_trial/Politip-trial.ttf);
+}
+
+@font-face {
+    font-family: helvetica-vf;
+    src: url(assets/fonts/HelveticaVFVF.ttf);
+}
+
+@font-face {
+    font-family: helvetica-vfs;
+    src: url(assets/fonts/HelveticaVFS.ttf);
+}
+
+@font-face {
+    font-family: helvetica-vff;
+    src: url(assets/fonts/HelveticaVFF.ttf);
+}
+
+@font-face {
+    font-family: helvetica-test;
+    src: url(assets/fonts/VariableTestVF.ttf);
+}
+
+.politip {
+    font-family: politip;
+    position: absolute;
+    top: 0;
+}
+
+.wrapper {
+    border: 1px solid #ddd;
+    margin: 0 5px 10px 0;
+    float: left;
+}
+
+.wrapper canvas {
+    display: inline-block;
+}
+
+.wrapper span {
+    text-align: center;
+    background: #ddd;
+    display: block;
+}
+
+main {
+    width: 50%;
+}
+
+main .p5Canvas {
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+#text-container {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+#text-container h1 {
+    font-family: helvetica-test;
+    font-size: 2em;
+}
+
+.text-content {
+    font-family: helvetica-test;
+    font-size: 3.5em;
+    text-wrap: nowrap;
+}
+
+.text-footnote {
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    font-size: 0.6em;
+}
+
+#btn_train {
+    position: absolute;
+    left: 40px;
+    top: 450px;
+}
